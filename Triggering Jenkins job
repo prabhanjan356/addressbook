@@ -1,1 +1,3 @@
 Working on the jenkins build trigger types
+diffrerance between timer and poll scm is ,timer trigger type triggers the jobe irrespective of the commit it will not look for commit
+where as poll scm triggers the job onely after commit happens on repository ,every schedule time it will send poll request to repository if there is any commit it will trigger the job else it will not trigger ,it keeps on check repo for commits in a schedule time but triggers the job only it finds new commit
